@@ -36,7 +36,7 @@ const App: React.FC = () => {
       <div style={{
           width: '250px', // กำหนดความกว้าง Sidebar
           backgroundColor: '#001529',
-          height: '100vh', // เต็มความสูงหน้าจอ
+          height: '100%', // เต็มความสูงหน้าจอ
           color: '#fff',
           display: 'flex',
           flexDirection: 'column',
@@ -49,7 +49,7 @@ const App: React.FC = () => {
         footer={<div>© 2025 My App</div>}
         onItemClick={handleItemClick}
         style={{
-          backgroundColor: '#001529',
+          // backgroundColor: '#001529',
           color: '#fff',
         }}
       />

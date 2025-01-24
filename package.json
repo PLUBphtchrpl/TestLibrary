@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "antd": "^5.23.2",
-    "falcon-library-comp": "github:TTTBrother-Co-Ltd/framework-falcon-library-react",
+    "falcon-library-comp": "^0.0.32",
     "next": "15.1.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

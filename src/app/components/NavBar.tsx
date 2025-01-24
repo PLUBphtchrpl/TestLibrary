@@ -44,7 +44,7 @@ const NavigationBar: React.FC = () => {
       onLogoClick={() => router.push('/')} // คลิกโลโก้ไปหน้าแรก
       mode="horizontal" // โหมดเมนู (horizontal หรือ vertical)
       style={{
-        backgroundColor: '#001529', // สีพื้นหลัง
+        // backgroundColor: '#001529', // สีพื้นหลัง
         padding: '10px', // กำหนด Padding
       }}
       onMenuClick={handleMenuClick} // Callback เมื่อคลิกเมนู
